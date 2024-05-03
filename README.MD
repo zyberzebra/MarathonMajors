@@ -2,7 +2,7 @@
 ## Marathon Majors 2025
 | Race     | Race URL                                  | Race Date   | Entry Time Start   | Entry Time End   | Expected Time Frame   |
 |:---------|:------------------------------------------|:------------|:-------------------|:-----------------|:----------------------|
-| Tokyo    | https://www.marathon.tokyo/en/            | 02.03.2025  |                    |                  | 08.2024               |
+| Tokyo    | https://www.marathon.tokyo/en/            | 02.03.2025  |                    |                  | 06.2024-07.2024       |
 | Boston   | https://www.baa.org/races/boston-marathon | 21.04.2025  |                    |                  | 09.2024               |
 | London   | https://www.tcslondonmarathon.com/        | 27.04.2025  | 20.04.2024         | 26.04.2024       |                       |
 | Berlin   | https://www.bmw-berlin-marathon.com/en/   | 28.09.2025  |                    |                  | 09.2024               |
