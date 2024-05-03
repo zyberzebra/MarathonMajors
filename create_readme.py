@@ -1,7 +1,12 @@
 import csv
 import pandas as pd
+
+from generate_icalendars import convert_csv_to_ics
 from marathon_urls import url_dict  # Add this line
 from tabulate import tabulate
+
+csv_filename = 'majors.csv'
+ics_filename = 'marathon_majors.ics'
 
 
 def format_as_markdown_table(df):
@@ -12,7 +17,7 @@ def format_as_markdown_table(df):
 
 
 def convert_csv_to_md(csv_filename, md_filename):
-    with open(csv_filename, 'r') as csv_file:
+    with open(csv_filename, 'r', encoding='utf-8') as csv_file:
         csv_data = list(csv.reader(csv_file))
     # Prepare separate data for 2024 and 2025
     data_2024 = [x for x in csv_data if x[0] == '2024']
@@ -24,7 +29,8 @@ def convert_csv_to_md(csv_filename, md_filename):
     md_table_2024 = format_as_markdown_table(df_2024)
     md_table_2025 = format_as_markdown_table(df_2025)
     # Write to md file
-    with open(md_filename, 'w') as md_file:
+    with open(md_filename, 'w', encoding='utf-8') as md_file:
+        md_file.write('[📅 Calendar File](' + ics_filename + ')  \n')
         md_file.write('## Marathon Majors 2025\n')
         md_file.write(md_table_2025)
         md_file.write('\n\n')
@@ -33,4 +39,6 @@ def convert_csv_to_md(csv_filename, md_filename):
 
 
 # Call the function provide csv and markdown file
-convert_csv_to_md('majors.csv', 'README.MD')
+
+convert_csv_to_ics(csv_filename, ics_filename)
+convert_csv_to_md(csv_filename, 'README.MD')
