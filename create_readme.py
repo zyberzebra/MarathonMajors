@@ -31,6 +31,7 @@ def convert_csv_to_md(csv_filename, md_filename):
     # Write to md file
     with open(md_filename, 'w', encoding='utf-8') as md_file:
         md_file.write('[📅 Calendar File](' + ics_filename + ')  \n')
+        md_file.write('♻️ Subscribe to this link: https://raw.githubusercontent.com/zyberzebra/MarathonMajors/master/marathon_majors.ics')
         md_file.write('## Marathon Majors 2025\n')
         md_file.write(md_table_2025)
         md_file.write('\n\n')
