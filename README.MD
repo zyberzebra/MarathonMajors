@@ -1,4 +1,5 @@
 [📅 Calendar File](marathon_majors.ics)  
+♻️ Subscribe to this link: https://raw.githubusercontent.com/zyberzebra/MarathonMajors/master/marathon_majors.ics
 ## Marathon Majors 2025
 | Race     | Race URL                                  | Race Date   | Entry Time Start   | Entry Time End   | Expected Time Frame   |
 |:---------|:------------------------------------------|:------------|:-------------------|:-----------------|:----------------------|
