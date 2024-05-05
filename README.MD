@@ -1,4 +1,5 @@
 [📅 Calendar File](marathon_majors.ics)  
+♻️ Subscribe to this link: https://raw.githubusercontent.com/zyberzebra/MarathonMajors/master/marathon_majors.ics
 ## Marathon Majors 2025
 | Race     | Race URL                                  | Race Date   | Entry Time Start   | Entry Time End   | Expected Time Frame   |
 |:---------|:------------------------------------------|:------------|:-------------------|:-----------------|:----------------------|
@@ -18,3 +19,4 @@
 | Berlin   | https://www.bmw-berlin-marathon.com/en/   | 29.09.2024  | 29.09.2023         | 16.11.2023       |                       |
 | Chicago  | https://www.chicagomarathon.com/          | 17.10.2024  | 17.10.2023         | 16.11.2023       |                       |
 | New York | https://www.nyrr.org/tcsnycmarathon       | 03.11.2024  | 28.02.2024         | 21.03.2024       |                       |
+| test     | nan                                       | 05.05.2024  |                    |                  |                       |
